@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formular {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Name, .email, .thema, .Nachricht {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+input[type="submit"] {
+    width: 300px;
+    background-color: aqua;
+}
+input[type="submit"]:hover {
+    width: 300px;
+    background-color: greenyellow;
+}
+span {
+    color: red;
+}
+/* .email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.thema {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.Nachricht {
+    display: flex;
+    flex-direction: column;
+} */

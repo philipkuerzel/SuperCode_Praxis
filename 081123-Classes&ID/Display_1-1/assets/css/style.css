@@ -1,0 +1,28 @@
+button {
+    width: 250px;
+    background-color: rgb(85, 60, 199);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin:0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.show__img {
+    margin: 0 auto;
+    max-width: max-content;
+}
+
+.show__img img {
+    display: none;
+    margin: 20px;
+}
+
+button:hover {
+    display: block;
+}
+
+button:hover + div img {
+    display: block;
+}

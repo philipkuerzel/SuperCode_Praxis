@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato';
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    display: flex;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    gap: 5px;
+    align-items: center;
+}
+
+.Menu {
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.Menu ul {
+    display: flex;
+    gap:10px ;
+    flex-wrap: nowrap;
+}
+
+.Menu a {
+    font-size: .8em;
+}
+
+.Shop {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.Shop a {
+    font-size: .8em;
+}
+
+main {
+    background-color: #D9E8E5;
+    padding: 10rem;
+}
+
+main h3 {
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60em;
+}
+
+main section div img {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}

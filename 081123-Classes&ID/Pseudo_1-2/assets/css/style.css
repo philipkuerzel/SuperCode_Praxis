@@ -1,0 +1,69 @@
+/* Verwende die Schriftart "Montserrat" von Google Fonts.
+Benutze diese Farben: #a020f0, #00bfff, #32cd32, #c71585, #00ced1, #483d8b, #2e8b57.
+Benutze diese Befehle: ::first-line, ::first-letter, ::before, ::after, ::selection. */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    font-weight: 800
+}
+
+*::first-letter {
+    font-size: 30px;
+}
+
+h3::first-letter {
+    color: #2e8b57;
+    font-size: 40px;
+}
+
+body li:nth-of-type(1)::first-letter {
+    color: #00bfff;
+    text-decoration: overline;
+}
+
+body li:nth-of-type(2)::first-letter {
+    color: #c71585;
+    text-decoration: underline;
+}
+
+body li:nth-of-type(3)::first-letter {
+    color: #32cd32;
+    text-decoration: line-through;
+}
+
+body li:nth-of-type(3){
+    text-decoration: line-through;
+}
+
+section p:first-of-type {
+    color: #483d8b;
+    text-indent: 50px;
+}
+
+section p:first-of-type::first-line {
+    font-size: 20px;
+}
+section p:not(:first-of-type) {
+    font-size: 23px;
+}
+section p:not(:first-of-type)::first-letter {
+    color: red;
+}
+
+section p:not(:first-of-type)::first-line{
+    color: #128a12;
+}
+
+section p:nth-of-type(3), section p:nth-of-type(5) {
+    font-size: 15px;
+}
+
+
+
+
+
+
