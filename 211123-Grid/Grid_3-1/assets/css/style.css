@@ -44,7 +44,7 @@ header nav ul li a {
     font-size: .6em;
 }
 
-main section {
+.firstsec {
     background: url('../img/photo-1443527216320-7e744084f5a7-1.jpg.png')center/cover no-repeat;
     height: 100vh;
     display: flex;
@@ -53,14 +53,14 @@ main section {
 }
 
 
-main section div h2 {
+.fsdiv h2 {
     color: white;
     font-size: 60px;
     font-weight: 400;
     padding: 3vh;
 }
 
-main section div p {
+.fsdiv p {
     color: white;
     font-size: 14px;
     font-weight: 400;
@@ -92,3 +92,40 @@ main section div p {
     background-color: #745CF9;
 }
 
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    place-items: center center;
+    background-color: white;
+}
+
+.infogray {
+    background-color:#F5F5F5 ;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 300px;
+}
+
+.text h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.text p {
+    font-size: 1rem;
+}
+
+.readmore {
+    background-color: #745CF9;
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+}
