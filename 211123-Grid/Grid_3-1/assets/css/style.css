@@ -107,19 +107,19 @@ header nav ul li a {
 .text {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 300px;
+    gap: 10px;
+    margin-bottom: 30px;
+    width: 350px;
 }
 
 .text h2 {
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .text p {
-    font-size: 1rem;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .readmore {
