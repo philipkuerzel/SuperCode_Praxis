@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+section div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+#C1 {
+    background:linear-gradient(45deg, rgba(11, 78, 11, 0.807) 50%, purple 50% ) ;
+}
+
+#C2 {
+    background:linear-gradient(45deg, gray 50%, gold 50% ) ;
+}
+
+#C3 {
+    background:linear-gradient(45deg, black 50%, orange 50% ) ;
+}
+
+#C4 {
+    background:linear-gradient(45deg, rgb(13, 13, 75) 50%, rgb(55, 172, 231) 50% ) ;
+}
