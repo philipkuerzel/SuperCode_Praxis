@@ -10,3 +10,12 @@ body div {
     display: flex;
     flex-direction: column;
 }
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+}

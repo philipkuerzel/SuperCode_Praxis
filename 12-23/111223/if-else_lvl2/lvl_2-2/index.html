@@ -11,10 +11,14 @@
     <h1>Air Quality</h1>
 
     <div>
-        <label for="airQuality">Luftqualität (AQI):</label>
+        <label for="airQuality">Luftqualität (AQI): <span>0</span></label>
         <input type="range" id="airQuality" name="airQuality" min="0" max="150" value="20" onchange="checkAirQuality()">
     </div>
-    <p id="message"></p>
+    <div>
+        <p id="message1"></p>
+        <p id="message2"></p>
+    </div>
+    
 
     <script src="./assets/js/main.js"></script>
 </body>
