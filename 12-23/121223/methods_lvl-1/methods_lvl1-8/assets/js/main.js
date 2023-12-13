@@ -8,7 +8,9 @@ document.write(B + "</br>") // sam IS GOING TO school
 let C = B.toLowerCase()
 document.write(C + "</br>") // sam is going to school
 
-let D = C.split(' ').map(function(word){return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();}) // Satz wird aufgesplittet in mehrere strings und .map geht durch jedes Wort
+let D = C.split(' ').map(function(word){
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();}) 
+    // Satz wird aufgesplittet in mehrere strings und .map geht durch jedes Wort
 
 let E = D.join(' ') // mit .join wird der Satz wieder zusammengefügt 
 document.write(E) // Sam Is Going To School
