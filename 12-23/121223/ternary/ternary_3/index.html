@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>ternary_3
+    </title>
 </head>
 <body>
-    
+    <section class="form-container">
+        <form id="messageForm">
+            <label for="messageInput">Nachricht eingeben:</label>
+            <input type="text" id="messageInput" placeholder="Deine Nachricht">
+            <button type="button" onclick="submit(); return false">Absenden</button>
+        </form>
+        <div id="outputContainer">
+            <p id="outputMessage"></p>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
