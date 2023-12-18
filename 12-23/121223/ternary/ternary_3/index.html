@@ -6,18 +6,22 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>ternary_3
     </title>
+    <style>
+        .warning {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <section class="form-container">
-        <form id="messageForm">
-            <label for="messageInput">Nachricht eingeben:</label>
-            <input type="text" id="messageInput" placeholder="Deine Nachricht">
-            <button type="button" onclick="submit(); return false">Absenden</button>
-        </form>
-        <div id="outputContainer">
-            <p id="outputMessage"></p>
-        </div>
-    </section>
+    <form id="messageForm">
+        <label for="message">Nachricht eingeben:</label>
+        <input type="text" id="message">
+        <br>
+        <button type="button" onclick="displayMessage()">Nachricht senden</button>
+    </form>
+
+    <div id="output"></div>
+
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
