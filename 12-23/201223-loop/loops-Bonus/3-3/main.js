@@ -27,7 +27,5 @@ const loopMe = () => {
 }
 
 
-// loops Bonus 3-4
-console.log("%c loops Bonus 3-4", "color:red");
-console.log("siehe HTML");
+
 
