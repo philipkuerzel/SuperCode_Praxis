@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Bonus 3-4</title>
+</head>
+<body>
+    <section>
+        <h1>Gib mir eine Zahl</h1>
+        <h4>Ich werde ALLE Zahlen bis zu dieser Zahl addieren, wenn sie durch die ausgewählten Zahlen teilbar sind.</h4>
+    
+        <div>
+            <label for="maxNumber">Maximale Zahl</label>
+            <input type="number"  id="maxNum">
+            <label for="firstNum">Erste Zahl</label>
+            <select name="" id="firstNum">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <label for="firstNum">Zweite Zahl</label>
+            <select name="" id="secNum">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <button onclick="countMe()">Count Me</button>
+        </div>
+        <p class="output"></p>
+    </section>
+
+
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
