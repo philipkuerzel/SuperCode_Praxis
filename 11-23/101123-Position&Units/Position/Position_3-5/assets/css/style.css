@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+body div{
+    background: url('../img/div.png')center/cover no-repeat;
+    height: 70vh;
+    position: relative;
+    margin-bottom: 30vh
+}
+
+/* .header {
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #00000080;
+} */
+
+body div header {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #00000080;
+}
+
+body div header h2 {
+    position: absolute;
+    top: 3vh;
+    left: 7vh;
+    color: white;
+    font-size: 2em;
+}
+
+header nav ul {
+    text-align: right;
+    padding-right: 10vh;
+    padding-top: 3vh;
+}
+
+header nav ul li {
+    display: inline;
+    padding-right: 15vh;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+main section {
+    background: none;
+    position:relative;
+    padding-top: 5vh;
+    width: 100vw;
+    height: 90vh;
+
+}
+main section h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 3vh;
+}
+main section hr {
+    position: absolute;
+    left: 685px;
+    width: 100px;
+    height: 7px;
+    color: black;
+    border: 1px solid #333333;
+    background-color: black;
+    margin-bottom: 5vh;
+}
+
+main section div {
+    background: none;
+    padding-left: 15vh;
+}
+
+main section div img {
+    width: 400px;
+    height: 250px;
+    padding: 3vh;
+}
+
+main section div img:hover {
+    width: 500px;
+    height: 350px;
+}
+
+footer section {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+}
+
+footer section h3 {
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+footer section ul {
+    text-align: left;
+    padding-left: 20vh;
+}
+
+footer section ul li {
+    list-style: none;
+    line-height: 2em;
+}
+
+footer section ul li span {
+    color: red;
+}
+
+footer section ul li:nth-of-type(4) span {
+    color: green;
+}
+
+footer section ul li:nth-of-type(5) span {
+    color: green;
+}
+
+footer section ul li:nth-of-type(6) span {
+    color: green;
+}
