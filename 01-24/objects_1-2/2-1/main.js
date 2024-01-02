@@ -59,7 +59,6 @@ let table = document.createElement("table");
     });
     tablehead.appendChild(headerRow);
     table.appendChild(tablehead);
-
     
     let tbody = document.createElement("tbody");
     edelMetallPreise.forEach(edelMetall => {
