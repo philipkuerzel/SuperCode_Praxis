@@ -34,6 +34,7 @@ let unsereHaustiere = [
     }
 ];
 
+
 console.log(unsereHaustiere[0].names);
 console.log(unsereHaustiere[0].names[1]);
 console.log(unsereHaustiere[1].names);
