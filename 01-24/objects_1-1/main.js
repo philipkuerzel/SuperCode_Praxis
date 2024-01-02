@@ -117,17 +117,13 @@ console.log(myMusic[1].kunstler.slice(-5));
 console.log("%c Objects lvl 1_7 siehe HTML", "color:red ");
 
 myMusic.forEach((el) => {
-    document.write(`${el.kunstler}<br>`);
-    document.write(`${el.title}<br>`);
-    document.write(`${el.formate}<br><br>`);
+    document.write(`${el.kunstler} <br> ${el.title} <br> ${el.formate} <br><br>`);
 })
 document.write("<br>")
 document.write("BONUS <br><br>")
 
 myMusic.filter(year => year.release_jahr < 1975).forEach((el) => {
-    document.write(`${el.kunstler}<br>`);
-    document.write(`${el.title}<br>`);
-    document.write(`${el.formate}<br><br>`);
+    document.write(`${el.kunstler} <br> ${el.title} <br> ${el.formate} <br><br>`);
 }) 
 
 
