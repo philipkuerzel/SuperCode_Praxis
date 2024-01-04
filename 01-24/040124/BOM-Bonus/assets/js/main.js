@@ -5,7 +5,7 @@ const cat = document.getElementById("cat")
 
 const catWalk = () => {
     clearInterval(moveCat)
-    
+
     moveCat = setInterval(() => {
         let catPosition = parseInt(cat.style.left) || 0
         catPosition += catDirection * catSpeed
@@ -27,4 +27,12 @@ const turn = () => {
 
 const increaseCatSpeed = () => {
     catSpeed += 3
+}
+
+const decreaseCatSpeed = () => {
+    if (catSpeed >= 5){
+        catSpeed -= 3
+    }else {
+        return catSpeed
+    }
 }
