@@ -4,7 +4,6 @@ let catSpeed = 2
 const cat = document.getElementById("cat")
 
 const catWalk = () => {
-
     moveCat = setInterval(() => {
         let catPosition = parseInt(cat.style.left) || 0
         catPosition += catDirection * catSpeed
