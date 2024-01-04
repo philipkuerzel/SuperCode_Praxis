@@ -6,12 +6,12 @@ const cat = document.getElementById("cat")
 const catWalk = () => {
 
     moveCat = setInterval(() => {
-        let currentPosition = parseInt(cat.style.left) || 0
-        currentPosition += catDirection * catSpeed
-        if (currentPosition + cat.width > window.innerWidth || currentPosition < 0) {
+        let catPosition = parseInt(cat.style.left) || 0
+        catPosition += catDirection * catSpeed
+        if (catPosition + cat.width > window.innerWidth || catPosition < 0) {
             turn()
         }
-        cat.style.left = `${currentPosition}px`
+        cat.style.left = `${catPosition}px`
     }, 20)
 }
 
