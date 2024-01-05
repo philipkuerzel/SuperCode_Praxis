@@ -2,6 +2,17 @@ fetch("https://picsum.photos/v2/list")
 .then((response) => response.json())
 .then((data) => {
     console.log(data)
+
+    // h1 für Überschrift
+    let h1 = document.createElement("h1")
+    h1.textContent = "Picsum Fetch"
+    document.body.appendChild(h1)
+
+    // section für Bildergallery
+    let gallery = document.createElement("section")
+    document.body.appendChild(gallery)
+
+
     data.forEach((element) => {
         const imgAuthor = element.author
         // console.log(imgAuthor);
@@ -10,7 +21,7 @@ fetch("https://picsum.photos/v2/list")
         console.log(imgUrl);
 
         const imgInfo = element.url
-        // console.log(imgID);
+        // console.log(imgInfo);
 
 
         // div für Bilder erstellen
@@ -36,6 +47,6 @@ fetch("https://picsum.photos/v2/list")
                 .catch((error) => console.log(error))
         })
         imgBox.appendChild(seeMoreBtn)
-        document.body.appendChild(imgBox)
+        gallery.appendChild(imgBox)
     });
 })
