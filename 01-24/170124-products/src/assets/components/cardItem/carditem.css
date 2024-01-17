@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #945b2c;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    margin-top: 20px;
+}
