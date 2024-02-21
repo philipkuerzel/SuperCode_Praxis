@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 
-const checkFile = (text) => {
+const checkAndAdd = (text) => {
     fs.access("./unterordner", fs.constants.F_OK, (err) => {
         // check if the subfolder exists
         if (err) {
@@ -33,4 +33,4 @@ const checkFile = (text) => {
     });
 };
 
-checkFile("tests ohne ende")
+checkAndAdd("tests ohne ende")
