@@ -18,6 +18,13 @@ const multiplyThreeTimes = (number) => {
     });
 }
 
+// andere Schreibweise
+// const multiplyThreeTimes = (number) => {
+//     return multiply(number)
+//     .then(multiply)
+//     .then(multiply)
+// }
+
 multiplyThreeTimes(3)
 .then((result) => {
     console.log(result);
