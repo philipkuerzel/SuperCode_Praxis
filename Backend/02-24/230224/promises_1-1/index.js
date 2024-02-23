@@ -1,5 +1,5 @@
 // double number and setTimeout
-const doubleNumber = (number) => {
+const doubleNumber = (number, ms) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (isNaN(number)) {
@@ -7,12 +7,12 @@ const doubleNumber = (number) => {
             } else {
                 resolve(number * 2);
             }
-        }, 1000);
+        }, ms);
     });
 
 }
 // call the function doubleNumber
-doubleNumber("298.33")
+doubleNumber(17.5, 2000)
     .then((result) => {
         console.log(result);
     })
