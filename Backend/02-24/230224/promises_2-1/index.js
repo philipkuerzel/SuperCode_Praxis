@@ -1,4 +1,4 @@
-// get random number between 1 and 10. if number < 6 reject, else resolve
+
 const getRandomNumber = () => {
     return new Promise((resolve, reject) => {
         let randomNumber = Math.ceil(Math.random() * 10);
