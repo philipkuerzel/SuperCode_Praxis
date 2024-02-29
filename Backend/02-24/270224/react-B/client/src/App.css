@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.app-container {
+  background-color: bisque;
+  height: 50vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.add {
+  display: flex;
+  gap: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 15vw;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addBtn {
+  cursor: pointer;
+}
+
+.delBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.checkbox {
+  cursor: pointer;
+}
