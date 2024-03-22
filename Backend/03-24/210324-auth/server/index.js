@@ -9,10 +9,12 @@ const app = express();
 app.use(express.json());
 
 
-app.get("/daylies", checkBasicAuth, async (req, res) => {
-	const posts = await Post.find().lean();
-	res.json(posts);
-});
+app.get("daylies", checkBasicAuth, async (req, res) => {
+  const daylies = await Post.find().lean();
+  res.status(200).json(daylies);
+})
+
+
 
 app.post("/daylies", checkBasicAuth, async (req, res) => {
 	const post = await Post.create({ body: "tag 5" });
@@ -23,3 +25,4 @@ app.post("/daylies", checkBasicAuth, async (req, res) => {
 app.listen(3000, () => {
 	console.log("listening on port 3000");
 });
+
