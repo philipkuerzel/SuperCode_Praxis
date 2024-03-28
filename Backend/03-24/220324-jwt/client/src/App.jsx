@@ -54,7 +54,6 @@ function App() {
     fetchEntries();
   };
 
-
   return (
     <div>
       <RegisterForm postRegistration={postRegistration}/>
