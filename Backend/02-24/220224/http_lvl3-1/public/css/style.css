@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+
+.bodyHome {
+    background-color: #DAA520;
+}

@@ -13,7 +13,7 @@ const App = () => {
 
     return (
         <section className="app-container">
-            <h1>toDo-App</h1>
+            <h1>todo</h1>
             <AddTodo />
             <TodoList />
         </section>

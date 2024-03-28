@@ -7,7 +7,7 @@ const TodoList = () => {
     console.log(todos);
     return (
         <>
-            <p className="counter">offene Aufgaben: {counter}</p>
+            <p className="counter">open tasks: {counter}</p>
             <div className="output">
                 {todos.map(({ title, done, id }) => (
                     <TodoItem key={id} id={id} title={title} done={done} />

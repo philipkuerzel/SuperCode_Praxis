@@ -7,11 +7,11 @@ const AddTodo = () => {
     const inputRef = useRef(null);
     
   return (
-    <div className='inputAndAdd'>
+    <div className='form'>
         <input
             type="text"
             ref={inputRef}
-            placeholder="Neue Aufgabe"
+            placeholder="add new task..."
             onKeyUp={(event) => {
                 if (event.key === 'Enter') {
                   addTodo(inputRef.current.value);
